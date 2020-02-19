@@ -12,7 +12,7 @@ def start(shared_memory):
         while True:
             try:
                 async with aiohttp.ClientSession() as session:
-                    async with session.post("http://localhost:3000/connect", json={"a":"b"}) as response:
+                    async with session.post("http://localhost:3000/connect", json=shared_memory["net_faces"]) as response:
                         print(response.status)
                         print(await response.json())
             except Exception as inst:
