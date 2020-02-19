@@ -1258,3 +1258,813 @@
 2020-02-18 03:20:28,068 - my-app - ERROR - app.py:connect():line 19  - 886916 - Thread-1 :
  (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
 
+2020-02-19 18:47:58,649 - root - INFO - main.py:<module>():line 13  -   1107 - MainThread :
+ Primary App Starts
+
+2020-02-19 18:47:58,653 - my-app - INFO - app.py:start():line 9  -   1111 - Thread-1 :
+ Secondery App Starts
+
+2020-02-19 18:47:58,781 - my-app - INFO - app.py:net_scan():line 24  -   1239 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 18:48:36,649 - my-app - ERROR - app.py:connect():line 19  -  39106 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 18:52:58,932 - my-app - INFO - app.py:net_scan():line 24  - 301389 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 18:53:10,036 - my-app - ERROR - app.py:connect():line 19  - 312494 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 18:53:17,046 - my-app - ERROR - app.py:connect():line 19  - 319504 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 18:53:24,056 - my-app - ERROR - app.py:connect():line 19  - 326513 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 18:53:31,049 - my-app - ERROR - app.py:connect():line 19  - 333506 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 18:53:48,809 - my-app - ERROR - app.py:connect():line 19  - 351266 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 18:54:40,101 - my-app - ERROR - app.py:connect():line 19  - 402558 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 18:55:46,402 - my-app - ERROR - app.py:connect():line 19  - 468860 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 18:57:59,048 - my-app - INFO - app.py:net_scan():line 24  - 601506 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 18:58:57,336 - my-app - ERROR - app.py:connect():line 19  - 659793 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 19:02:59,135 - my-app - INFO - app.py:net_scan():line 24  - 901593 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:04:03,516 - my-app - ERROR - app.py:connect():line 19  - 965974 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 19:04:10,526 - my-app - ERROR - app.py:connect():line 19  - 972983 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:04:17,535 - my-app - ERROR - app.py:connect():line 19  - 979993 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:04:24,546 - my-app - ERROR - app.py:connect():line 19  - 987004 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:04:36,893 - my-app - ERROR - app.py:connect():line 19  - 999350 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 19:04:43,900 - my-app - ERROR - app.py:connect():line 19  - 1006357 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:04:50,891 - my-app - ERROR - app.py:connect():line 19  - 1013349 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:04:57,899 - my-app - ERROR - app.py:connect():line 19  - 1020356 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:04,893 - my-app - ERROR - app.py:connect():line 19  - 1027351 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:11,902 - my-app - ERROR - app.py:connect():line 19  - 1034360 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:18,911 - my-app - ERROR - app.py:connect():line 19  - 1041368 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:25,928 - my-app - ERROR - app.py:connect():line 19  - 1048386 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:32,934 - my-app - ERROR - app.py:connect():line 19  - 1055392 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:39,946 - my-app - ERROR - app.py:connect():line 19  - 1062403 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:46,948 - my-app - ERROR - app.py:connect():line 19  - 1069405 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:05:53,960 - my-app - ERROR - app.py:connect():line 19  - 1076417 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:00,968 - my-app - ERROR - app.py:connect():line 19  - 1083425 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:07,975 - my-app - ERROR - app.py:connect():line 19  - 1090433 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:14,969 - my-app - ERROR - app.py:connect():line 19  - 1097427 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:21,978 - my-app - ERROR - app.py:connect():line 19  - 1104435 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:28,970 - my-app - ERROR - app.py:connect():line 19  - 1111427 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:35,977 - my-app - ERROR - app.py:connect():line 19  - 1118434 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:42,971 - my-app - ERROR - app.py:connect():line 19  - 1125428 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:49,977 - my-app - ERROR - app.py:connect():line 19  - 1132434 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:06:56,972 - my-app - ERROR - app.py:connect():line 19  - 1139429 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:03,980 - my-app - ERROR - app.py:connect():line 19  - 1146438 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:10,991 - my-app - ERROR - app.py:connect():line 19  - 1153449 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:18,004 - my-app - ERROR - app.py:connect():line 19  - 1160461 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:25,011 - my-app - ERROR - app.py:connect():line 19  - 1167468 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:32,019 - my-app - ERROR - app.py:connect():line 19  - 1174476 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:39,029 - my-app - ERROR - app.py:connect():line 19  - 1181487 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:46,032 - my-app - ERROR - app.py:connect():line 19  - 1188490 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:53,039 - my-app - ERROR - app.py:connect():line 19  - 1195496 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:07:59,232 - my-app - INFO - app.py:net_scan():line 24  - 1201690 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:08:00,048 - my-app - ERROR - app.py:connect():line 19  - 1202505 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:08:07,057 - my-app - ERROR - app.py:connect():line 19  - 1209514 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:08:14,049 - my-app - ERROR - app.py:connect():line 19  - 1216507 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:08:21,056 - my-app - ERROR - app.py:connect():line 19  - 1223514 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:08:28,047 - my-app - ERROR - app.py:connect():line 19  - 1230505 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:09:09,643 - my-app - ERROR - app.py:connect():line 19  - 1272100 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 19:12:00,776 - my-app - ERROR - app.py:connect():line 19  - 1443233 - Thread-1 :
+ (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+
+2020-02-19 19:12:07,770 - my-app - ERROR - app.py:connect():line 19  - 1450227 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:14,781 - my-app - ERROR - app.py:connect():line 19  - 1457238 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:21,791 - my-app - ERROR - app.py:connect():line 19  - 1464249 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:28,780 - my-app - ERROR - app.py:connect():line 19  - 1471237 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:35,790 - my-app - ERROR - app.py:connect():line 19  - 1478247 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:42,793 - my-app - ERROR - app.py:connect():line 19  - 1485251 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:49,804 - my-app - ERROR - app.py:connect():line 19  - 1492261 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:56,811 - my-app - ERROR - app.py:connect():line 19  - 1499268 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:12:59,377 - my-app - INFO - app.py:net_scan():line 24  - 1501835 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:13:03,820 - my-app - ERROR - app.py:connect():line 19  - 1506277 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:10,815 - my-app - ERROR - app.py:connect():line 19  - 1513272 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:17,826 - my-app - ERROR - app.py:connect():line 19  - 1520283 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:24,835 - my-app - ERROR - app.py:connect():line 19  - 1527292 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:31,844 - my-app - ERROR - app.py:connect():line 19  - 1534302 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:38,852 - my-app - ERROR - app.py:connect():line 19  - 1541309 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:45,860 - my-app - ERROR - app.py:connect():line 19  - 1548317 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:52,870 - my-app - ERROR - app.py:connect():line 19  - 1555328 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:13:59,879 - my-app - ERROR - app.py:connect():line 19  - 1562336 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:06,889 - my-app - ERROR - app.py:connect():line 19  - 1569346 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:13,897 - my-app - ERROR - app.py:connect():line 19  - 1576355 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:20,907 - my-app - ERROR - app.py:connect():line 19  - 1583364 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:27,917 - my-app - ERROR - app.py:connect():line 19  - 1590375 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:34,927 - my-app - ERROR - app.py:connect():line 19  - 1597384 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:41,936 - my-app - ERROR - app.py:connect():line 19  - 1604393 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:48,946 - my-app - ERROR - app.py:connect():line 19  - 1611404 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:14:55,938 - my-app - ERROR - app.py:connect():line 19  - 1618395 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:02,947 - my-app - ERROR - app.py:connect():line 19  - 1625404 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:09,941 - my-app - ERROR - app.py:connect():line 19  - 1632399 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:16,949 - my-app - ERROR - app.py:connect():line 19  - 1639407 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:23,958 - my-app - ERROR - app.py:connect():line 19  - 1646415 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:30,967 - my-app - ERROR - app.py:connect():line 19  - 1653425 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:37,979 - my-app - ERROR - app.py:connect():line 19  - 1660436 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:44,988 - my-app - ERROR - app.py:connect():line 19  - 1667446 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:51,997 - my-app - ERROR - app.py:connect():line 19  - 1674455 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:15:59,005 - my-app - ERROR - app.py:connect():line 19  - 1681462 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:06,013 - my-app - ERROR - app.py:connect():line 19  - 1688470 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:13,034 - my-app - ERROR - app.py:connect():line 19  - 1695491 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:20,051 - my-app - ERROR - app.py:connect():line 19  - 1702509 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:27,060 - my-app - ERROR - app.py:connect():line 19  - 1709517 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:34,069 - my-app - ERROR - app.py:connect():line 19  - 1716526 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:41,075 - my-app - ERROR - app.py:connect():line 19  - 1723533 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:48,095 - my-app - ERROR - app.py:connect():line 19  - 1730552 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:16:55,105 - my-app - ERROR - app.py:connect():line 19  - 1737563 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:02,112 - my-app - ERROR - app.py:connect():line 19  - 1744569 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:09,119 - my-app - ERROR - app.py:connect():line 19  - 1751577 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:16,130 - my-app - ERROR - app.py:connect():line 19  - 1758587 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:23,137 - my-app - ERROR - app.py:connect():line 19  - 1765594 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:30,144 - my-app - ERROR - app.py:connect():line 19  - 1772601 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:37,156 - my-app - ERROR - app.py:connect():line 19  - 1779613 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:44,166 - my-app - ERROR - app.py:connect():line 19  - 1786623 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:51,158 - my-app - ERROR - app.py:connect():line 19  - 1793616 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:58,169 - my-app - ERROR - app.py:connect():line 19  - 1800626 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:17:59,461 - my-app - INFO - app.py:net_scan():line 24  - 1801919 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:18:05,186 - my-app - ERROR - app.py:connect():line 19  - 1807643 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:12,195 - my-app - ERROR - app.py:connect():line 19  - 1814652 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:19,188 - my-app - ERROR - app.py:connect():line 19  - 1821645 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:26,197 - my-app - ERROR - app.py:connect():line 19  - 1828654 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:33,190 - my-app - ERROR - app.py:connect():line 19  - 1835648 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:40,199 - my-app - ERROR - app.py:connect():line 19  - 1842657 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:47,206 - my-app - ERROR - app.py:connect():line 19  - 1849664 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:18:54,217 - my-app - ERROR - app.py:connect():line 19  - 1856675 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:01,227 - my-app - ERROR - app.py:connect():line 19  - 1863684 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:08,221 - my-app - ERROR - app.py:connect():line 19  - 1870678 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:15,230 - my-app - ERROR - app.py:connect():line 19  - 1877687 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:22,239 - my-app - ERROR - app.py:connect():line 19  - 1884696 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:29,251 - my-app - ERROR - app.py:connect():line 19  - 1891709 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:36,259 - my-app - ERROR - app.py:connect():line 19  - 1898716 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:43,252 - my-app - ERROR - app.py:connect():line 19  - 1905709 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:50,262 - my-app - ERROR - app.py:connect():line 19  - 1912719 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:19:57,274 - my-app - ERROR - app.py:connect():line 19  - 1919732 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:04,266 - my-app - ERROR - app.py:connect():line 19  - 1926724 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:11,276 - my-app - ERROR - app.py:connect():line 19  - 1933733 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:18,285 - my-app - ERROR - app.py:connect():line 19  - 1940743 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:25,296 - my-app - ERROR - app.py:connect():line 19  - 1947753 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:32,306 - my-app - ERROR - app.py:connect():line 19  - 1954764 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:39,298 - my-app - ERROR - app.py:connect():line 19  - 1961756 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:46,310 - my-app - ERROR - app.py:connect():line 19  - 1968767 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:20:53,319 - my-app - ERROR - app.py:connect():line 19  - 1975776 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:00,329 - my-app - ERROR - app.py:connect():line 19  - 1982787 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:07,340 - my-app - ERROR - app.py:connect():line 19  - 1989797 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:14,349 - my-app - ERROR - app.py:connect():line 19  - 1996806 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:21,355 - my-app - ERROR - app.py:connect():line 19  - 2003813 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:28,361 - my-app - ERROR - app.py:connect():line 19  - 2010818 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:35,370 - my-app - ERROR - app.py:connect():line 19  - 2017827 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:42,362 - my-app - ERROR - app.py:connect():line 19  - 2024820 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:49,374 - my-app - ERROR - app.py:connect():line 19  - 2031832 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:21:56,383 - my-app - ERROR - app.py:connect():line 19  - 2038841 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:03,390 - my-app - ERROR - app.py:connect():line 19  - 2045848 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:10,398 - my-app - ERROR - app.py:connect():line 19  - 2052855 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:17,392 - my-app - ERROR - app.py:connect():line 19  - 2059849 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:24,397 - my-app - ERROR - app.py:connect():line 19  - 2066854 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:31,405 - my-app - ERROR - app.py:connect():line 19  - 2073863 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:38,415 - my-app - ERROR - app.py:connect():line 19  - 2080872 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:45,410 - my-app - ERROR - app.py:connect():line 19  - 2087868 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:52,419 - my-app - ERROR - app.py:connect():line 19  - 2094877 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:59,430 - my-app - ERROR - app.py:connect():line 19  - 2101887 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:22:59,549 - my-app - INFO - app.py:net_scan():line 24  - 2102007 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:23:06,434 - my-app - ERROR - app.py:connect():line 19  - 2108891 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:13,443 - my-app - ERROR - app.py:connect():line 19  - 2115900 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:20,451 - my-app - ERROR - app.py:connect():line 19  - 2122909 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:27,460 - my-app - ERROR - app.py:connect():line 19  - 2129917 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:34,469 - my-app - ERROR - app.py:connect():line 19  - 2136926 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:41,487 - my-app - ERROR - app.py:connect():line 19  - 2143945 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:48,496 - my-app - ERROR - app.py:connect():line 19  - 2150954 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:23:55,504 - my-app - ERROR - app.py:connect():line 19  - 2157962 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:02,514 - my-app - ERROR - app.py:connect():line 19  - 2164972 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:09,527 - my-app - ERROR - app.py:connect():line 19  - 2171984 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:16,535 - my-app - ERROR - app.py:connect():line 19  - 2178993 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:23,545 - my-app - ERROR - app.py:connect():line 19  - 2186002 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:30,555 - my-app - ERROR - app.py:connect():line 19  - 2193013 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:37,549 - my-app - ERROR - app.py:connect():line 19  - 2200007 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:44,558 - my-app - ERROR - app.py:connect():line 19  - 2207016 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:51,567 - my-app - ERROR - app.py:connect():line 19  - 2214024 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:24:58,573 - my-app - ERROR - app.py:connect():line 19  - 2221031 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:05,582 - my-app - ERROR - app.py:connect():line 19  - 2228039 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:12,591 - my-app - ERROR - app.py:connect():line 19  - 2235049 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:19,601 - my-app - ERROR - app.py:connect():line 19  - 2242058 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:26,609 - my-app - ERROR - app.py:connect():line 19  - 2249066 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:33,617 - my-app - ERROR - app.py:connect():line 19  - 2256074 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:40,626 - my-app - ERROR - app.py:connect():line 19  - 2263083 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:47,636 - my-app - ERROR - app.py:connect():line 19  - 2270093 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:25:54,644 - my-app - ERROR - app.py:connect():line 19  - 2277101 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:01,652 - my-app - ERROR - app.py:connect():line 19  - 2284110 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:08,661 - my-app - ERROR - app.py:connect():line 19  - 2291118 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:15,670 - my-app - ERROR - app.py:connect():line 19  - 2298127 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:22,677 - my-app - ERROR - app.py:connect():line 19  - 2305135 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:29,684 - my-app - ERROR - app.py:connect():line 19  - 2312142 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:36,697 - my-app - ERROR - app.py:connect():line 19  - 2319154 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:43,689 - my-app - ERROR - app.py:connect():line 19  - 2326146 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:50,699 - my-app - ERROR - app.py:connect():line 19  - 2333157 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:26:57,710 - my-app - ERROR - app.py:connect():line 19  - 2340167 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:04,719 - my-app - ERROR - app.py:connect():line 19  - 2347176 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:11,727 - my-app - ERROR - app.py:connect():line 19  - 2354184 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:18,720 - my-app - ERROR - app.py:connect():line 19  - 2361178 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:25,729 - my-app - ERROR - app.py:connect():line 19  - 2368187 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:32,722 - my-app - ERROR - app.py:connect():line 19  - 2375180 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:39,732 - my-app - ERROR - app.py:connect():line 19  - 2382189 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:46,740 - my-app - ERROR - app.py:connect():line 19  - 2389197 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:53,748 - my-app - ERROR - app.py:connect():line 19  - 2396205 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:27:59,647 - my-app - INFO - app.py:net_scan():line 24  - 2402105 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:28:00,757 - my-app - ERROR - app.py:connect():line 19  - 2403214 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:07,767 - my-app - ERROR - app.py:connect():line 19  - 2410224 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:14,778 - my-app - ERROR - app.py:connect():line 19  - 2417236 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:21,790 - my-app - ERROR - app.py:connect():line 19  - 2424247 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:28,784 - my-app - ERROR - app.py:connect():line 19  - 2431241 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:35,794 - my-app - ERROR - app.py:connect():line 19  - 2438251 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:42,804 - my-app - ERROR - app.py:connect():line 19  - 2445261 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:49,798 - my-app - ERROR - app.py:connect():line 19  - 2452256 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:28:56,807 - my-app - ERROR - app.py:connect():line 19  - 2459264 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:03,801 - my-app - ERROR - app.py:connect():line 19  - 2466258 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:10,808 - my-app - ERROR - app.py:connect():line 19  - 2473265 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:17,817 - my-app - ERROR - app.py:connect():line 19  - 2480275 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:24,824 - my-app - ERROR - app.py:connect():line 19  - 2487282 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:31,833 - my-app - ERROR - app.py:connect():line 19  - 2494290 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:38,840 - my-app - ERROR - app.py:connect():line 19  - 2501298 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:45,850 - my-app - ERROR - app.py:connect():line 19  - 2508307 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:52,868 - my-app - ERROR - app.py:connect():line 19  - 2515326 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:29:59,861 - my-app - ERROR - app.py:connect():line 19  - 2522319 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:06,867 - my-app - ERROR - app.py:connect():line 19  - 2529325 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:13,880 - my-app - ERROR - app.py:connect():line 19  - 2536337 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:20,900 - my-app - ERROR - app.py:connect():line 19  - 2543357 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:27,891 - my-app - ERROR - app.py:connect():line 19  - 2550349 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:34,900 - my-app - ERROR - app.py:connect():line 19  - 2557358 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:41,895 - my-app - ERROR - app.py:connect():line 19  - 2564353 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:48,901 - my-app - ERROR - app.py:connect():line 19  - 2571359 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:30:55,911 - my-app - ERROR - app.py:connect():line 19  - 2578369 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:02,933 - my-app - ERROR - app.py:connect():line 19  - 2585391 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:09,942 - my-app - ERROR - app.py:connect():line 19  - 2592400 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:16,950 - my-app - ERROR - app.py:connect():line 19  - 2599408 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:23,958 - my-app - ERROR - app.py:connect():line 19  - 2606416 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:30,967 - my-app - ERROR - app.py:connect():line 19  - 2613425 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:37,978 - my-app - ERROR - app.py:connect():line 19  - 2620435 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:44,971 - my-app - ERROR - app.py:connect():line 19  - 2627428 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:51,981 - my-app - ERROR - app.py:connect():line 19  - 2634438 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:31:58,992 - my-app - ERROR - app.py:connect():line 19  - 2641449 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:05,991 - my-app - ERROR - app.py:connect():line 19  - 2648449 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:13,027 - my-app - ERROR - app.py:connect():line 19  - 2655484 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:20,058 - my-app - ERROR - app.py:connect():line 19  - 2662515 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:27,099 - my-app - ERROR - app.py:connect():line 19  - 2669557 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:34,117 - my-app - ERROR - app.py:connect():line 19  - 2676574 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:41,146 - my-app - ERROR - app.py:connect():line 19  - 2683603 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:48,157 - my-app - ERROR - app.py:connect():line 19  - 2690615 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:55,167 - my-app - ERROR - app.py:connect():line 19  - 2697624 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:32:59,713 - my-app - INFO - app.py:net_scan():line 24  - 2702170 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:33:02,171 - my-app - ERROR - app.py:connect():line 19  - 2704629 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:09,175 - my-app - ERROR - app.py:connect():line 19  - 2711632 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:16,170 - my-app - ERROR - app.py:connect():line 19  - 2718628 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:23,177 - my-app - ERROR - app.py:connect():line 19  - 2725634 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:30,169 - my-app - ERROR - app.py:connect():line 19  - 2732627 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:37,162 - my-app - ERROR - app.py:connect():line 19  - 2739620 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:44,170 - my-app - ERROR - app.py:connect():line 19  - 2746627 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:51,165 - my-app - ERROR - app.py:connect():line 19  - 2753622 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:33:58,166 - my-app - ERROR - app.py:connect():line 19  - 2760623 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:05,159 - my-app - ERROR - app.py:connect():line 19  - 2767616 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:12,168 - my-app - ERROR - app.py:connect():line 19  - 2774626 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:19,165 - my-app - ERROR - app.py:connect():line 19  - 2781622 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:26,160 - my-app - ERROR - app.py:connect():line 19  - 2788617 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:31,300 - root - INFO - main.py:admin():line 24  - 2793757 - MainThread :
+ {'password': '123'}
+
+2020-02-19 19:34:33,169 - my-app - ERROR - app.py:connect():line 19  - 2795627 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:40,162 - my-app - ERROR - app.py:connect():line 19  - 2802620 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:47,176 - my-app - ERROR - app.py:connect():line 19  - 2809634 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:34:54,200 - my-app - ERROR - app.py:connect():line 19  - 2816657 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:01,215 - my-app - ERROR - app.py:connect():line 19  - 2823672 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:08,222 - my-app - ERROR - app.py:connect():line 19  - 2830680 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:15,245 - my-app - ERROR - app.py:connect():line 19  - 2837703 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:22,278 - my-app - ERROR - app.py:connect():line 19  - 2844736 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:29,290 - my-app - ERROR - app.py:connect():line 19  - 2851747 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:36,324 - my-app - ERROR - app.py:connect():line 19  - 2858781 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:43,340 - my-app - ERROR - app.py:connect():line 19  - 2865798 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:35:50,377 - my-app - ERROR - app.py:connect():line 19  - 2872834 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
+2020-02-19 19:36:10,577 - root - INFO - main.py:<module>():line 13  -    757 - MainThread :
+ Primary App Starts
+
+2020-02-19 19:36:10,581 - my-app - INFO - app.py:start():line 9  -    761 - Thread-1 :
+ Secondery App Starts
+
+2020-02-19 19:36:10,702 - my-app - INFO - app.py:net_scan():line 24  -    882 - Thread-1 :
+ [{'ip': '10.0.0.7', 'mac': 'd4:25:8b:c1:ea:62'}, {'ip': '172.18.13.65', 'mac': '02:15:9f:be:c5:17'}]
+
+2020-02-19 19:36:12,733 - my-app - ERROR - app.py:connect():line 19  -   2913 - Thread-1 :
+ (ConnectionKey(host='localhost', port=3000, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), ConnectionRefusedError(10061, "Connect call failed ('127.0.0.1', 3000)"))
+
