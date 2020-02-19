@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static',filename='lib/bootstrap/dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='lib/html5-boilerplate/dist/css/normalize.css')}}">
+    <style>
+        #login-form {
+            background-color: #C5C9B8;
+            width: 100%;
+            color: #333333;
+            height: 92vh;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 10px 0;
+            align-items: center;
+            justify-content: space-around;
+            display: flex;
+            float: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container-fluid">
+
+        <div id="login-form" class="row">
+            <!-- Login Form -->
+            <div class="col-sm-12">
+                <form method="POST" action="/admin">
+                    <label for="password">Type Your Password</label>
+                    <input type="password" id="password" class="form-control" name="password"
+                        placeholder="password:123">
+                    <p class="text-danger"></p>
+                    <button type="submit" class="btn btn-primary btn-block mt-3" >Log In</button>
+                    <p class="text-danger">{{status}}</p>
+                </form>
+            </div>
+            <!-- Login Form -->
+        </div>
+
+    </div>
+
+
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+    -->
+
+    <script src="{{url_for('static',filename='lib/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='lib/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+
+</body>
+
+</html>

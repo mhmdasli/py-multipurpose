@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js">
+ <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static',filename='lib/bootstrap/dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='lib/html5-boilerplate/dist/css/normalize.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='lib/bootstrap/dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='app.css')}}">
+    <script rel="stylesheet" href="{{url_for('static',filename='lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+</head>
+<body>
+
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ng-include="'/static/partials/header.html'"></div>
+
+    <div ng-view class="h-100"></div>
+
+    <div ng-include="'/static/partials/footer.html'"></div>
+
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+    -->
+
+    <script src="{{url_for('static',filename='lib/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='lib/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='lib/angular/angular.js')}}"></script>
+    <script src="{{url_for('static',filename='lib/angular-route/angular-route.js')}}"></script>
+    <script src="{{url_for('static',filename='app.js')}}"></script>
+    <script src="{{url_for('static',filename='layout/main/main.js')}}"></script>
+    <script src="{{url_for('static',filename='core/version/version.js')}}"></script>
+    <script src="{{url_for('static',filename='core/version/version-directive.js')}}"></script>
+    <script src="{{url_for('static',filename='core/version/interpolate-filter.js')}}"></script>
+
+</body>
+</html>
