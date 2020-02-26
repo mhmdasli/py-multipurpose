@@ -11,7 +11,6 @@ from src.helpers import mylogger
 # init root logger
 logger = mylogger.create_logger('root')
 logger.info("Primary App Starts")
-
 #--------------------------------------------------------------------------------------
 # define app
 app = Flask(__name__)
@@ -36,11 +35,6 @@ if __name__ == "__main__":
     shared_memory = {}
     myapp = threading.Thread(target=myApp.start,args=(shared_memory,))
     myapp.start()
-    # run app
-    app.run(debug=False, threaded=False)
-else:
-    # start async app thread
-    shared_memory = {}
-    myapp = threading.Thread(target=myApp.start,args=(shared_memory,))
-    myapp.start()
+    # run listener
+    app.run(debug=False, threaded=True,host='0.0.0.0')
     

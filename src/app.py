@@ -12,9 +12,9 @@ def start(shared_memory):
         while True:
             try:
                 async with aiohttp.ClientSession() as session:
-                    async with session.post("http://localhost:3000/connect", json=shared_memory["net_faces"]) as response:
+                    async with session.post("http://mynode:3000/connect", json=shared_memory["net_faces"]) as response:
                         print(response.status)
-                        print(await response.json())
+                        logger.info(await response.json())
             except Exception as inst:
                 logger.error(inst.args)
                 await asyncio.sleep(5)
@@ -22,12 +22,12 @@ def start(shared_memory):
         while True:
             shared_memory["net_faces"]=netscan.run_faces()
             logger.info(shared_memory["net_faces"])
-            await asyncio.sleep(60*5)
+            await asyncio.sleep(30)
 
     async def counter():
         i=0
         while True:
-            print(i)
+            logger.info(i)
             i+=1
             await asyncio.sleep(1)
 
